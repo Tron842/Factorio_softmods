@@ -1,0 +1,5 @@
+return {
+    "playerlist",
+    "tag",
+    "spawn"
+}
