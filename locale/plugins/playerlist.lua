@@ -33,8 +33,10 @@ end
 function drawToolbar()
     for t,I in pairs(game.players) do
         local z=I.gui.top
-        clearElement(z)
-        z.add{name="btn_toolbar_playerList",type="button",caption="Playerlist",tooltip="Lists player connected."}
+        --clearElement(z)
+		if I.gui.top.btn_toolbar_playerList == nil then
+			z.add{name="btn_toolbar_playerList",type="button",caption="Playerlist",tooltip="Lists player connected."}
+		end
     end
 end
  

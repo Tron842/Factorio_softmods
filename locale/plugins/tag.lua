@@ -93,4 +93,3 @@ end
 
 Event.register(defines.events.on_gui_click, on_tag_click)
 Event.register(defines.events.on_player_joined_game, create_tag_gui)
-remote.add_interface("creategui", tag = create_tag_gui)
