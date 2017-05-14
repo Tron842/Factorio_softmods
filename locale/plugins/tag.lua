@@ -1,6 +1,6 @@
 function create_tag_gui(event)
   local player = game.players[event.player_index]
-    player.insert{name="submachine-gun", count=1}
+    --player.insert{name="submachine-gun", count=1}
   if player.gui.top.tag == nil then
   	  player.gui.top.add{name="tag", type="button", caption="Tag"}
   end   
